@@ -1,0 +1,52 @@
+.homepage {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.8),
+      rgba(36, 42, 46, 0.8)
+    ),
+    url("../../../public/homepage_bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 65px 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #fff;
+}
+
+.title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 42px; /* 116.667% */
+  margin-bottom: 23px;
+  max-width: 500px;
+  text-align: center;
+  line-height: 1.5;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+.subtitle {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-bottom: 60px;
+  max-width: 500px;
+  text-align: center;
+  line-height: 2;
+}
+.btn {
+  border-radius: 5px;
+  background: #ff8c38;
+  padding: 10px 143px;
+
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2;
+  cursor: pointer;
+}

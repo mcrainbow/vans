@@ -1,0 +1,59 @@
+.about {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.8),
+      rgba(36, 42, 46, 0.8)
+    ),
+    url("../../../public/about-img.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 65px 227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  color: #fff;
+}
+
+.title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px; /* 118.75% */
+  text-align: center;
+}
+.subtitle {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.7;
+  width: 500px;
+}
+
+.block {
+  border-radius: 5px;
+  background: #ffcc8d;
+  width: 25%;
+  padding: 32px 37px;
+}
+.block h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+  margin-bottom: 25px;
+  color: #161616;
+  text-decoration: underline;
+}
+.block button {
+  color: #fff;
+  font-size: 15.946px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.919px; /* 150% */
+  border-radius: 10px;
+  background: #161616;
+  cursor: pointer;
+
+  padding: 13px 22px;
+}

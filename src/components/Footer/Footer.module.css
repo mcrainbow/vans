@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #252525;
+
+  height: 100px;
+  width: 100%;
+}
+
+.footer span {
+  color: #aaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.923px; /* 163.733% */
+}
